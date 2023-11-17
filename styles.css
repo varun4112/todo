@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+    
+}
+
+.row{
+    background-color:rgb(238, 238, 238);
+    /* background-color: black; */
+    height: 200vh;
+}
+
+.dark-mode {
+    background-color: black;
+    color: white;
+}
+
+#todocol{
+    background-color:rgb(238, 238, 238);
+}
+.header{
+    text-align: center;
+}
+
+#tododiv{
+    margin-top:20% ;
+    background-color: white;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 5px 5px;
+}
+
+#myInput{
+    width: 400px;
+    margin: 10px;
+    border-radius: 5px;
+    border: 1px solid silver;
+    padding: 5px;
+}
+
+.addBtn{
+    width: 400px;
+    color: white;
+    background-color:rgb(0, 89, 255); 
+    border-radius: 5px;
+    padding: 5px;
+    border: none;
+    margin-bottom: 10px;
+}
+
+.addBtn:hover{
+    background-color: rgb(2, 2, 184);
+}
+
+ul{
+    text-align: center;
+    padding: 30px;
+    list-style-type: none;
+}
+
+li{
+    background-color:white;
+    margin: 10px;
+    border-radius: 5px;
+    font-size: large;
+    font-weight: 700;
+    
+}
+
+/* FUNCTION */
+.delete{
+    height: 40px;
+    width: 40px;
+    border: 0;
+    border-radius: 40px;
+    background-color: white;
+    border: 2px solid lightcoral;
+    margin:5px;
+}
+.delete:hover{
+    background-color:red;
+
+}
+
+.edit{
+    height: 40px;
+    width: 40px;
+    border: 0;
+    border-radius: 40px;
+    background-color: white;
+    border: 2px solid lightgreen;
+    margin:5px;
+}
+
+.edit:hover{
+    background-color: green;
+}
